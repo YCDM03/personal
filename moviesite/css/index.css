@@ -37,13 +37,13 @@ header > h1 > a {
 }
 .search_input {
   width: 200px;
-  border: 1px solid white;
+  border: 1px solid #d3d3d3;
   border-radius: 3px;
 }
 .search_btn {
   background-color: white;
   margin-left: 3px;
-  border: 1px solid white;
+  border: 1px solid #d3d3d3;
   border-radius: 2px;
 }
 .search_btn:hover {
@@ -64,7 +64,8 @@ header > h1 > a {
 }
 
 .movie_card {
-  width: 250px;
+  box-sizing: border-box;
+  width: 260px;
   height: 542px;
   border: var(--card-border);
   border-radius: 5px;
@@ -86,6 +87,7 @@ header > h1 > a {
   margin-bottom: 10px;
   width: 240px;
   border: 2px solid rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
 }
 .movie_title {
   width: 100%;

@@ -22,7 +22,7 @@ search_input.addEventListener("keydown", (e) => {
 });
 
 //img가져올 때 기본 경로(img 경로 구성:1+2+3, 그중 1번)
-const img_url = "https://image.tmdb.org/t/p/w342/";
+const img_url = "https://image.tmdb.org/t/p/w500/";
 
 //fetch옵션
 const options = {
